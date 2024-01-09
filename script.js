@@ -76,3 +76,57 @@ tl.from(".gsap_animation_5", {
         end: "top 40%"
     }
 })
+
+tl.from(".project_gsap_animation1", {
+    y: 200,
+    opacity: 0,
+    duration: 1
+})
+
+tl.from(".project_gsap_animation2", {
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".project_gsap_animation2",
+        scroller: "body",
+        scrub: 2,
+        start: "top 60% center",
+        end: "top 40%"
+    }
+})
+
+tl.from(".project_gsap_animation3", {
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".project_gsap_animation3",
+        scroller: "body",
+        scrub: 2,
+        start: "top 60% center",
+        end: "top 40%"
+    }
+})
+
+tl.from(".project_gsap_animation4", {
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".project_gsap_animation4",
+        scroller: "body",
+        scrub: 2,
+        start: "top 60% center",
+        end: "top 40%"
+    }
+})
+
+tl.from(".project_gsap_animation5", {
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".project_gsap_animation5",
+        scroller: "body",
+        scrub: 2,
+        start: "top 60% center",
+        end: "top 40%"
+    }
+})
