@@ -7,6 +7,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+/* :root{
+    --bg-color: #fff;
+    --font-color: #000106;
+} */
+
 html, body{
     scroll-behavior: smooth;
     width: 100%;
@@ -90,6 +95,17 @@ section:nth-child(even){
     margin-bottom: 110px;
 }
 
+#icon{
+    width: 33px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.dark-theme{
+    background-color: #000106;
+    color: #fff;
+}
+
 /* Navigation Bar */
 nav{
     height: 100px;
@@ -104,6 +120,7 @@ nav{
 
 .nav_link_list{
     display: flex;
+    align-items: center;
     animation: animate_nav_link_list 600ms 300ms backwards ease;
 }
 
@@ -120,7 +137,7 @@ nav{
 
 .nav_link_anchor{
     margin: 0 12px;
-    color: #242424;
+    color: #616161;
     font-weight: 700;
     position: relative;
 }
@@ -152,6 +169,23 @@ nav{
 .nav_link_anchor_primary:hover{
     background-color: #ff3434;
 }
+
+/* .dark_btn{
+    width: 48px;
+    background-color: #a2a2a2;
+    border-radius: 30px;
+    padding: 2px 3px;
+    display: flex;
+    align-items: center;
+}
+
+.dark_btn span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+} */
 
 .personal_logo{
     font-size: 23px;
@@ -229,7 +263,9 @@ nav{
 }
 
 .about_me_info_title{
-    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
     margin-bottom: 10px;
     word-spacing: 3px;
     animation: fade_up 650ms 400ms backwards;
