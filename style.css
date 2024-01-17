@@ -96,9 +96,8 @@ section:nth-child(even){
 }
 
 #icon{
-    width: 33px;
+    width: 29px;
     cursor: pointer;
-    margin-left: 5px;
 }
 
 .dark-theme{
@@ -263,8 +262,6 @@ nav{
 }
 
 .about_me_info_title{
-    display: flex;
-    align-items: center;
     font-size: 28px;
     margin-bottom: 10px;
     word-spacing: 3px;
@@ -690,7 +687,7 @@ footer{
         overflow-x: hidden;
     }
 
-    .nav_link:not(:last-child){
+    .nav_link:not(:nth-last-child(2)){
         display: none;
     }
 
@@ -748,8 +745,16 @@ footer{
         overflow-x: hidden;
     }
 
+    nav{
+        padding-left: 8px;
+        padding-right: 10px;
+    }
+
+
+
     .personal_logo{
         font-size: 18px;
+        margin-left: 0;
     }
 
     .personal_logo span{
@@ -819,12 +824,16 @@ footer{
         overflow-x: hidden;
     }
 
-    nav{
-        padding: 0;
-    }
-
     .row{
         padding: 0 8px;
+    }
+
+    .nav_link_anchor{
+        font-size: 14px;
+    }
+
+    .nav_link_anchor_primary{
+        padding: 9px 14px;
     }
 
     .project_list{
