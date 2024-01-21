@@ -1,19 +1,7 @@
-let icon = document.getElementById("icon");
-let languages = document.getElementById("languages");
-let pictureMask = document.getElementById("pictue_mask");
-
-icon.onclick = function(){
-    document.body.classList.toggle("dark-theme");
-    if(document.body.classList.contains("dark-theme")){
-        icon.src = "./assets/sun2.png";
-        languages.style.backgroundColor = "#171717";
-        pictureMask.style.boxShadow = "0px 0px 13px #a3a3a3a4";
-    }else{
-        icon.src = "./assets/moon2.png";
-        languages.style.backgroundColor = "#f1f1f1";
-        pictureMask.style.boxShadow = "0px 5px 13px #000000a4";
-    }
-}
+let display = document.getElementById("email_hover_effect");
+display.addEventListener("click", function(){
+    document.getElementById("contact_form").style.display = "block";
+})
 
 let tl = gsap.timeline();
 tl.from(".gsap_animation_1", {

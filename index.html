@@ -8,7 +8,8 @@
     <title>Portfolio - Varun Vishwakarma</title>
     <script src="https://kit.fontawesome.com/6a715fa06a.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="dark_theme">
+
     <section id="about_me">
         <nav>
             <div class="personal_logo">Varun<br><span>Vishwakarma.</span></div>
@@ -20,9 +21,15 @@
                     <a href="#projects" class="nav_link_anchor linkhover-effect link-hover-effect-red">Projects</a>
                 </li>
                 <li class="nav_link">
-                    <a href="#" class="nav_link_anchor nav_link_anchor_primary">Contact</a>
+                    <a href="#" id="email_hover_effect" class="nav_link_anchor nav_link_anchor_primary">Contact</a>
+                    <div id="contact_form">
+                        <div class="form">
+                            <input type="email" name="email" id="email" placeholder="Enter your email...">
+                            <textarea id="message" cols="30" rows="10" placeholder="Write message here..."></textarea>
+                            <button class="btn">Send Message</button>
+                        </div>
+                    </div>
                 </li>
-                <img src="./assets/moon2.png" id="icon" alt="icon">
             </div>
         </nav>
         <div class="flex flex_1">
