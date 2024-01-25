@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
 }
 
 /* :root{
@@ -100,63 +98,6 @@ section:nth-child(even){
     color: #f1f1f1;
 }
 
-#email_hover_effect{
-    position: relative;
-}
-
-#contact_form{
-    position: absolute;
-    top: 13%;
-    right: 7%;
-    width: 395px;
-    height: 470px;
-    background: rgba(255, 0, 0, 0.338);
-    z-index: 5;
-    border-radius: 5px;
-    display: none;
-    transition: all .3s ease;
-}
-
-.form{
-    padding: 41px 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.form #email{
-    width: 100%;
-    padding: 15px 20px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    border-radius: 10px;
-    color: #333333;
-}
-
-.form #message{
-    width: 100%;
-    font-size: 15px;
-    height: 228px;
-    resize: none;
-    border: none;
-    outline: none;
-    padding: 15px 15px 7px;
-    border-radius: 10px;
-}
-
-.form .btn{
-    width: 100%;
-    padding: 15px;
-    font-size: 17px;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-
 /* Navigation Bar */
 nav{
     height: 100px;
@@ -188,7 +129,7 @@ nav{
 
 .nav_link_anchor{
     margin: 0 12px;
-    color: #616161;
+    color: #afafaf;
     font-weight: 700;
     position: relative;
 }
@@ -221,8 +162,12 @@ nav{
     background-color: #ff3434;
 }
 
+.nav_link_anchor_primary:hover .contact_form{
+    display: block;
+}
+
 .personal_logo{
-    font-size: 23px;
+    font-size: 30px;
     color: #f00000;
     margin-left: 12px;
     font-weight: 700;
@@ -273,7 +218,7 @@ nav{
     height: 80px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.645);
+    box-shadow: 0 0px 30px 4px #5e5e5ea4;
     margin-bottom: 30px;
     animation: animate_profile_picture 800ms 200ms backwards;
 }
@@ -436,8 +381,8 @@ nav{
 
 .project_wrapper{
     display: flex;
-    box-shadow: 0 15px 47px rgba(0, 0, 0, 0.7);
     border-radius: 20px;
+    box-shadow: 0px 0px 20px #373737, 0px 0px 20px #4a4a4a;
     overflow: hidden;
     position: relative;
 }
