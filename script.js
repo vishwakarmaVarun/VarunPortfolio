@@ -1,8 +1,3 @@
-// let display = document.getElementById("email_hover_effect");
-// display.addEventListener("click", function(){
-//     document.getElementById("contact_form").style.display = "block";
-// })
-
 let tl = gsap.timeline();
 tl.from(".gsap_animation_1", {
     opacity: 0,
