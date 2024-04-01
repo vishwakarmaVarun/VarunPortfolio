@@ -179,12 +179,13 @@
         <div class="mcontainer">
             <div class="row">
                 <h1 class="section_title">Contact <span class="text_orange">Me</span></h1>
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="4bf416ce-bb4b-462c-a578-66d5f0ec4d22">
                     <div class="inputs">
-                        <input type="text" placeholder="Your full name..." style="display: block;">
-                        <input type="email" placeholder="Your email..." style="display: block;">
+                        <input type="text" name="name" placeholder="Your full name..." style="display: block;" required>
+                        <input type="email" name="email" placeholder="Your email..." style="display: block;" required>
                     </div>
-                    <textarea class="msgtext" cols="30" rows="10" placeholder="Write message here..." style="display: block;"></textarea>
+                    <textarea class="msgtext" name="message" cols="30" rows="10" placeholder="Write message here..." style="display: block;" required></textarea>
                     <input class="submitBtn" type="submit" value="Send Message">
                 </form>
             </div>
