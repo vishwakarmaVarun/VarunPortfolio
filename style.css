@@ -52,7 +52,7 @@ li{
     color: #f00000!important;
 }
 
-section:nth-child(even){
+section:nth-child(odd){
     background-color: #0f0f0f;
 }
 
@@ -275,6 +275,11 @@ nav{
 
 
 /* Tech Stack */
+.lcontainer{
+    padding: 50px 0;
+    margin: 80px 0;
+}
+
 .language{
     width: 25%;
     display: flex;
@@ -322,8 +327,8 @@ nav{
 }
 
 /* Project */
-#projects .container{
-    padding: 30px 0;
+.pcontainer{
+    padding: 65px 0;
 }
 
 .project{
@@ -417,6 +422,7 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 7px;
+    padding-top: 1rem;
 }
 
 .more_projects{
@@ -511,6 +517,80 @@ footer{
     word-spacing: 6px;
 }
 
+/* Contact Section */
+form{
+    padding: 1rem 2rem;
+}
+
+.mcontainer{
+    margin: 0;
+    padding: 50px 0;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 30px;
+}
+
+.inputs input{
+    display: block;
+    width: 100%;
+    color: #b6b6b6;
+    padding: 1.1rem 1rem;
+    font-size: 16px;
+    border: 2px solid #444444;
+    outline: none;
+    border-radius: 6px;
+    background: transparent;
+    transition: border-color 250ms ease;
+}
+
+.inputs input:hover{
+    border-color: #e3e3e3;
+}
+
+.msgtext{
+    display: block;
+    width: 100%;
+    color: #b6b6b6;
+    font-size: 16px;
+    height: 217px;
+    resize: none;
+    border: 2px solid #444444;
+    outline: none;
+    border-radius: 6px;
+    padding: 1.1rem;
+    background: transparent;
+    margin-bottom: 40px;
+    transition: border-color 250ms ease;
+}
+
+.msgtext:hover{
+    border-color: #e3e3e3;
+}
+
+.submitBtn{
+    display: block;
+    margin: 0 auto;
+    background: #c40000;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0.9rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 250ms ease;
+}
+
+.submitBtn:hover{
+    background: #e10000;
+}
+
 
 /* RESPONSIVENESS for Small phones, Tablets, larger smartphones*/
 @media (max-width: 768px){
@@ -559,7 +639,7 @@ footer{
         width: 45%;
     }
 
-    .container{
+    .lcontainer{
         padding: 45px 0;
         margin: 60px 0;
     }
@@ -692,16 +772,19 @@ footer{
         overflow-x: hidden;
     }
 
+    .lcontainer{
+        padding: 50px 0;
+        margin: 0;
+    }
+
     nav{
         padding-left: 8px;
         padding-right: 10px;
     }
 
-
-
     .personal_logo{
-        font-size: 18px;
-        margin-left: 0;
+        font-size: 27px;
+        margin-left: 12px;
     }
 
     .personal_logo span{
@@ -751,6 +834,14 @@ footer{
     .project_description_links{
         display: flex;
         justify-content: center;
+    }
+
+    .inputs{
+        flex-direction: column;
+    }
+
+    .footer_row{
+        padding: 12% 0;
     }
 
     .footerlogo_image{
