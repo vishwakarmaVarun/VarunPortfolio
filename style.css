@@ -444,7 +444,7 @@ footer{
 }
 
 .footerlogo_image{
-    width: 140px;
+    width: 70px;
 }
 
 .footer_social_link,
@@ -659,10 +659,6 @@ form{
         font-size: 2.2vw;
     }
 
-    .footerlogo_image{
-        width: 110px;
-    }
-
     .footer_logo_popup{
         font-size: 15px;
     }
@@ -820,10 +816,6 @@ form{
         padding: 12% 0;
     }
 
-    .footerlogo_image{
-        width: 100px;
-    }
-
     .footer_social_links{
         max-width: 450px;
     }
@@ -855,10 +847,6 @@ form{
 
     .footer_row{
         padding: 13% 0;
-    }
-
-    .footerlogo_image{
-        width: 90px;
     }
 
     .footer_social_link{
