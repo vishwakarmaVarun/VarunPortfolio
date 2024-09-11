@@ -407,9 +407,9 @@ body.dark .about_me_picture_mask {
   background-color: #ffffff;
 }
 
-body.dark .project-box{
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    background-color: #2c2c2c;
+body.dark .project-box {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  background-color: #2c2c2c;
 }
 
 .project-box:hover {
@@ -417,8 +417,8 @@ body.dark .project-box{
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-body.dark .project-box:hover{
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+body.dark .project-box:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
 
 .project-box img {
@@ -685,7 +685,7 @@ body.dark .msgtext:hover {
     margin: 60px 0;
   }
 
-  .project-container{
+  .project-container {
     padding: 0;
   }
 
